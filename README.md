@@ -64,7 +64,7 @@ For Finance Department
 
 ![image](https://github.com/user-attachments/assets/fd43481f-7f6c-41f0-bb75-d0f3e25d2dc5)
 
-## Creating sub interface
+## Creating sub interface in Router
 
 For Admin
 
@@ -90,7 +90,7 @@ The encapsulation dot1Q or IEEE 802.1Q is a standard protocol that adds a 4-byte
 
 Each subnet has its default gateway address seen in the configuration.
 
-## Configuring DHCP Server
+## Configuring DHCP Server in Router
 
 For Administration
 
@@ -111,6 +111,8 @@ Overall commands
 To view the changes, I used the command "_do show start_" in the configuration terminal.
 
 ![image](https://github.com/user-attachments/assets/c85ea7d7-67c9-4b9d-8439-e7c7e14a0b20)
+
+## Testing if the configured DHCP server worked
 
 **Lastly, we switch from static to dhcp for the end device**
 
@@ -161,3 +163,6 @@ Mobile Device connected to Access Point
 SSID: Finance AP
 
 Password: Finance!
+
+## Testing
+To test if all end devices can communicate with one another, I use the ping command in order to know if they will get a signal?

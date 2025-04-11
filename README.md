@@ -66,11 +66,13 @@ For Finance Department
 
 ## Creating sub interface in Router
 
+**This is crucial for scenarios where a single router port needs to serve as the default gateway for multiple VLANs connected to a switch via a trunk link.**
+
 For Admin
 
 ![image](https://github.com/user-attachments/assets/47c70908-9924-49a5-896d-efda6af4a3b2)
 
-The IP address shown in the configuration is considered the default gateway for the subnet admin
+The IP address shown in the configuration is considered the default gateway for the subnet admin, and the same goes for the following departments.
 
 For Operation
 
@@ -114,7 +116,7 @@ To view the changes, I used the command "_do show start_" in the configuration t
 
 ## Testing if the configured DHCP server worked
 
-**Lastly, we switch from static to dhcp for the end device**
+**Lastly, we configure the end devices by switching from static to dhcp.**
 
 For Administration
 
@@ -165,4 +167,4 @@ SSID: Finance AP
 Password: Finance!
 
 ## Testing
-To test if all end devices can communicate with one another, I use the ping command in order to know if they will get a signal?
+_ping_ command is used to test network connectivity between devices. It sends an ICMP echo request to a specified IP address and waits for a reply. This helps determine if the destination device is reachable and if the network path between the devices is functioning correctly. 

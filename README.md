@@ -15,6 +15,8 @@ The ISP gave out a base network of 192.168.1.0 to work around.
 
 ![image](https://github.com/user-attachments/assets/75c298c4-6f4a-4c15-8346-e746c770c9d9)
 
+**Addressing Table:**
+
 ## Configuring VLANs in Switch
 For Administration Department
 
@@ -92,7 +94,7 @@ The encapsulation dot1Q or IEEE 802.1Q is a standard protocol that adds a 4-byte
 
 Each subnet has its default gateway address seen in the configuration.
 
-## Configuring DHCP Server in Router
+## Configuring DHCP & DNS Server in Router
 
 For Administration
 
@@ -100,7 +102,7 @@ For Administration
 
 For Operation
 
-![image](https://github.com/user-attachments/assets/394ac4af-e27d-4915-bc79-3ccb19ad0fab)
+![image](https://github.com/user-attachments/assets/d1030519-66a4-4f85-8a06-dc98cb15e30a)
 
 For Finance
 
@@ -108,17 +110,19 @@ For Finance
 
 Overall commands
 
-![image](https://github.com/user-attachments/assets/ca76221a-d92a-4f04-956e-1433468b3264)
+![image](https://github.com/user-attachments/assets/f96fec84-17ce-4251-97d5-e20f5db4b9a8)
 
 To view the changes, I used the command "_do show start_" in the configuration terminal.
 
-![image](https://github.com/user-attachments/assets/c85ea7d7-67c9-4b9d-8439-e7c7e14a0b20)
+![image](https://github.com/user-attachments/assets/458d4fff-a94b-4a3a-a8e6-8efa38b5d7d4)
 
 ## Testing if the configured DHCP server worked
 
 **Lastly, we configure the end devices by switching from static to dhcp.**
 
 For Administration
+
+![image](https://github.com/user-attachments/assets/898f762f-2143-48d4-8045-46fc79082199)
 
 PC:
 
@@ -134,7 +138,11 @@ SSID: Admin AP
 
 Password: AdminR@cks
 
+![image](https://github.com/user-attachments/assets/cdbe23c2-74cc-4c2b-965a-4781eaebad7c) ![image](https://github.com/user-attachments/assets/da7bb5a5-23b8-4754-9102-b95a6edc8ed1)
+
 For Operation
+
+![image](https://github.com/user-attachments/assets/df7a5f10-f5be-4209-a1b2-3e92ca2fada3)
 
 PC:
 
@@ -150,7 +158,11 @@ SSID: Operation AP
 
 Password: 0peration!
 
+![image](https://github.com/user-attachments/assets/1d922e64-907b-4249-a768-a4c0fc004324) ![image](https://github.com/user-attachments/assets/9f3e697c-db0e-4d06-85f0-373693bb9a1d)
+
 For Finance
+
+![image](https://github.com/user-attachments/assets/65ad5e65-eb33-43df-87d4-62893c7a9375)
 
 PC:
 
@@ -165,6 +177,10 @@ Mobile Device connected to Access Point
 SSID: Finance AP
 
 Password: Finance!
+
+![image](https://github.com/user-attachments/assets/1cf379e0-ef76-425a-bb27-3ade700a9dab) ![image](https://github.com/user-attachments/assets/bed60c31-0ba3-4146-b201-64ed1597e4b8)
+
+
 
 ## Testing
 _ping_ command is used to test network connectivity between devices. It sends an ICMP echo request to a specified IP address and waits for a reply. This helps determine if the destination device is reachable and if the network path between the devices is functioning correctly. 

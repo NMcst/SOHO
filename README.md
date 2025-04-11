@@ -184,3 +184,17 @@ Password: Finance!
 
 ## Testing
 _ping_ command is used to test network connectivity between devices. It sends an ICMP echo request to a specified IP address and waits for a reply. This helps determine if the destination device is reachable and if the network path between the devices is functioning correctly. 
+
+![image](https://github.com/user-attachments/assets/6315acd7-c174-40a8-9161-3e55cf6b1958)
+
+The first screenshot shows the Admin PC pings 192.168.1.132, which is the smartphone of Finance, and it shows that there is network connectivity between devices.
+
+![image](https://github.com/user-attachments/assets/d6e81114-a47f-4236-87e0-5e5a9f66e74d)
+
+The second screenshot shows the smartphone of Finance pings 192.168.1.66, which is the Operation PC, and it shows that there is network connectivity between devices.
+
+![image](https://github.com/user-attachments/assets/4e4e3996-21ff-487b-ab8a-1dd53c9ba7e3)
+
+The last screenshot shows the Operation PC pings 192.168.1.3, which is the Admin Printer, and it shows that there is network connectivity between devices.
+
+## Summary

@@ -198,3 +198,4 @@ The second screenshot shows the smartphone of Finance pings 192.168.1.66, which 
 The last screenshot shows the Operation PC pings 192.168.1.3, which is the Admin Printer, and it shows that there is network connectivity between devices.
 
 ## Summary
+The project is done through Cisco Packet Tracer. This project shows the step-by-step creation of a small home office network design. It demonstrated subnetting, configuring VLANs, an Access Point, and a DHCP and DNS Server.
